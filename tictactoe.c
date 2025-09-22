@@ -29,6 +29,12 @@ int main(){
 
         printf("Move for player%d(1-9): ", player)
         scanf("%d", &index);
-        
-    }
+        if(index<1 || index>9){
+            printf("allowed index is 1 to 9/n")
+            continue;
+        }
+        if(pos[index-1] == pos[index-1] == 'o'){
+            
+        }   
+
 }
